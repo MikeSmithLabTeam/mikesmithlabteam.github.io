@@ -1,0 +1,83 @@
+{
+  "current": [
+    {
+    "name": "Mike Smith",
+    "blurb":"My research interests are focussed on how the interactions between particles affect the properties of non-equilibrium flows. This spans colloidal and granular systems, both with and without wetting liquids. I'm particularly interested in questions related to the arrest of flowing matter: glassy dynamics, jamming, fracture",
+    "email":"mike.i.smith@nottingham.ac.uk",
+    "img":"images/Mike.jpg",
+    "webpage":"http://www.nottingham.ac.uk/~ppzmis"
+    },
+    {
+      "name": "Matthew Hayes",
+      "blurb": "Matthew is working on an Industry linked PhD project studying the break-up of yield stress fluids. e.g clay.",
+      "email": "ppxmh1@nottingham.ac.uk",
+      "img": "images/Matt.jpg",
+      "webpage": null
+    },
+    {
+      "name": "James Downs",
+      "blurb": "James is working on a PhD project looking at crystallization in 2D granular fluids.",
+      "email": "ppxjd3@nottingham.ac.uk",
+      "img": "images/James.png",
+      "webpage":null
+    }
+  ],
+  "past": [
+    {
+      "name": "Nathan Smith",
+      "blurb": "Nathan studied a PhD in granular physics between 2014-2018. He is now a data scientist doing research on LIDAR for wind farms.",
+      "email" : null,
+      "img" : "images/Nathan.jpg",
+      "webpage":null
+    },
+    {
+      "name": "Bin Yang",
+      "blurb": "Bin did postdoctoral research on film formation in drying colloids between 2013-2017. She is now a research scientist at AstraZeneca",
+      "email" : null,
+      "img" : "images/Bin.jpg",
+      "webpage":null
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Professor Juan Garrahan",
+      "institution": "University of Nottingham",
+      "webpage": "www.nottingham.ac.uk/~ppzjpg"
+    },
+    {
+      "name": "Dr Michael Swift",
+      "institution": "University of Nottingham",
+      "webpage": "www.nottingham.ac.uk/Physics/People/michael.swift"
+    },
+    {
+      "name": "Dr James Sharp",
+      "institution": "University of Nottingham",
+      "webpage": "www.nottingham.ac.uk/Physics/People/james.sharp"
+    },
+    {
+      "name": "Dr Manuel Romero",
+      "institution": "University of Nottingham",
+      "webpage": "https://www.nottingham.ac.uk/life-sciences/people/m.romero"
+    },
+    {
+      "name": "Dr Kranthi Madadapu",
+      "institution": "UC Berkeley",
+      "webpage": "http://www.cchem.berkeley.edu/kranthi/"
+    },
+    {
+      "name": "Dr Volfango Bertola",
+      "institution": "University of Liverpool",
+      "webpage": "http://www.technicalphysics.epizy.com/?i=1"
+    },
+    {
+      "name": "Prof Mike Cates FRS",
+      "institution": "University of Cambridge",
+      "webpage": "http://www.damtp.cam.ac.uk/person/mec22"
+    },
+    {
+      "name": "Dr Vito Fodera",
+      "institution": "University of Copenhagen",
+      "webpage": "https://www.vitofodera.com/"
+    }
+  ]
+}
