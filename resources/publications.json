@@ -2,6 +2,7 @@
   "publications": [
     {
       "tag": "ABPs",
+      "keywords":["All","Active Matter"],
       "title": "Collective behavior of composite active particles",
       "authors": ["J. Eglinton", "M.I.Smith", "M.R.Swift"],
       "journal": "Phys. Rev. E",
@@ -18,6 +19,7 @@
     },
     {
       "tag": "Bacteria",
+      "keywords":["All","Active Matter"],
       "title": "Fluid dynamics and cell-bound Psl polysaccharide allows microplastic capture, aggregation and subsequent sedimentation by Pseudomonas aeruginosa in water",
       "authors": ["M.Romero", "A.Carabelli", "M.R.Swift", "M.I.Smith"],
       "journal": "J. Environ. Microbiology",
@@ -34,6 +36,7 @@
     },
     {
       "tag": "2DPhase",
+      "keywords":["All","Granular"],
       "title": "Topographic control of order in quasi-2D granular phase transitions",
       "authors": [
         "J.G.Downs",
@@ -59,6 +62,7 @@
     },
     {
       "tag": "ParticleTracker",
+      "keywords":["All","Techniques"],
       "title": "ParticleTracker: a gui based particle tracking software",
       "authors": ["M.I.Smith", "J.G.Downs"],
       "journal": "J. Open Source Software",
@@ -75,6 +79,7 @@
     },
     {
       "tag": "Kaolin",
+      "keywords":["All","Granular", "Rheology", "Yield Stress"],
       "title": "Slip in Adhesion Tests of a Kaolin Clay",
       "authors": ["M.J.Hayes", "M.I.Smith"],
       "journal": "Eur. Phys. J. E",
@@ -91,6 +96,7 @@
     },
     {
       "tag": "BounceBall",
+      "keywords":["All","Granular"],
       "title": "Collision-enhanced friction of a bouncing ball on a rough vibrating surface",
       "authors": ["N.D.Smith", "M.R.Swift", "M.I.Smith"],
       "journal": "Sci. Rep.",
@@ -107,6 +113,7 @@
     },
     {
       "tag": "MicroSAXS",
+      "keywords":["All","Techniques","Colloids","Film Instabilities"],
       "title": "Shear bands and the evolving microstructure in a drying colloidal film studied with scanning &mu;-SAXS",
       "authors": [
         "B.Yang",
@@ -129,6 +136,7 @@
     },
     {
       "tag": "GranularT",
+      "keywords":["All","Granular"],
       "title": "Boundary effects in a quasi-two-dimensional driven granular fluid",
       "authors": ["N.D.Smith", "M.I.Smith"],
       "journal": "Phys. Rev. E",
@@ -145,6 +153,7 @@
     },
     {
       "tag": "DelamPattern",
+      "keywords":["All","Colloids", "Film Instabilities"],
       "title": "The interplay of crack hopping, delamination and interface failure in drying nanoparticle films",
       "authors": ["B.Yang", "J.S.Sharp", "M.I.Smith"],
       "journal": "Sci. Rep.",
@@ -161,7 +170,8 @@
     },
     {
       "tag": "Fracture",
-      "title": "Topographic control of order in quasi-2D granular phase transitions",
+      "keywords": ["All","Colloids", "Jamming", "Rheology"],
+      "title": "Fracture of Jammed Colloidal Suspensions",
       "authors": ["M.I.Smith"],
       "journal": "Sci. Rep.",
       "volume": 5,
@@ -177,6 +187,7 @@
     },
     {
       "tag": "OscillateDrops",
+      "keywords": ["All","Droplets", "Wetting", "Rheology"],
       "title": "Mechanical vibrations of pendant liquid droplets",
       "authors": ["R.H.Temperton", "M.I.Smith", "J.S.Sharp"],
       "journal": "Eur. Phys. J. E",
@@ -193,6 +204,7 @@
     },
     {
       "tag": "ShearBand",
+      "keywords": ["All","Colloids", "Film Instabilities"],
       "title": "Shear Banding in Drying Films of Colloidal Nanoparticles",
       "authors": ["B.Yang", "J.S.Sharp", "M.I.Smith"],
       "journal": "ACS Nano",
@@ -209,6 +221,7 @@
     },
     {
       "tag": "PolymerDrops",
+      "keywords": ["All", "Droplets", "Wetting", "Rheology"],
       "title": "The origin of contact line forces during the retraction of dilute polymer solution drops",
       "authors": ["M.I.Smith", "J.S.Sharp"],
       "journal": "Langmuir",
@@ -225,6 +238,7 @@
     },
     {
       "tag": "ColSpherulitePaper",
+      "keywords": ["All","Proteins"],
       "title": "Giant Amyloid Spherulites reveal their true colours",
       "authors": ["M.I.Smith", "J.S.Sharp", "C.J.Roberts"],
       "journal": "Soft Matter",
@@ -244,6 +258,7 @@
     },
     {
       "tag": "InsulinSpherulites",
+      "keywords": ["All","Proteins"],
       "title": "Factors affecting the formation of Insulin Spherulites",
       "authors": [
         "M.I.Smith",
@@ -266,6 +281,7 @@
     },
     {
       "tag": "CrackingPaper",
+      "keywords": ["All","Colloids", "Film Instabilities"],
       "title": "Effects of substrate constraint on crack pattern formation in thin films of colloidal particles",
       "authors": ["M.I.Smith", "J.S.Sharp"],
       "journal": "Langmuir",
@@ -282,6 +298,7 @@
     },
     {
       "tag": "DropPaper2",
+      "keywords": ["All","Droplets", "Wetting"],
       "title": "Particle Velocimetry of Newtonian and non-Newtonian Droplets Impacting a Hydrophobic Surface",
       "authors": ["M.I.Smith", "V.Bertola"],
       "journal": "Exp Fluids",
@@ -298,6 +315,7 @@
     },
     {
       "tag": "DilatancyPaper",
+      "keywords": ["All","Colloids", "Rheology", "Jamming"],
       "title": "Dilatancy in the flow and fracture of stretched colloidal suspensions",
       "authors": ["M.I.Smith", "V.Bertola"],
       "journal": "Nat. Commun.",
@@ -314,6 +332,7 @@
     },
     {
       "tag": "DropPaper",
+      "keywords": ["All","Droplets", "Wetting"],
       "title": "Effect of polymer additives on the wetting of impacting droplets",
       "authors": ["M.I.Smith", "V.Bertola"],
       "journal": "Phys. Rev. Letts",
@@ -333,6 +352,7 @@
     },
     {
       "tag": "prefibrilspaper",
+      "keywords": ["All","Proteins"],
       "title": "Insulin Fibril Nucleation: the role of prefibrillar aggregates",
       "authors": ["M.I.Smith", "J.S.Sharp", "C.J.Roberts"],
       "journal": "Biophys. J",
@@ -349,6 +369,7 @@
     },
     {
       "tag": "surfacefibrilspaper",
+      "keywords": ["All","Proteins"],
       "title": "Nucleation and Growth of Insulin Fibrils in Bulk Solution and at Hydrophobic Polystyrene Surfaces",
       "authors": ["M.I.Smith", "J.S.Sharp", "C.J.Roberts"],
       "journal": "Biophys. J",
@@ -365,6 +386,7 @@
     },
     {
       "tag": "wrinklingpaper",
+      "keywords": ["All", "Film Instabilities"],
       "title": "Spinodal wrinkling in thin film poly(ethylene oxide )/polystyrene bilayers",
       "authors": [
         "J.S.Sharp",
