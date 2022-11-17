@@ -1,14 +1,14 @@
 "use strict";
 
 //DOM elements
-const currentMembers = Array.from(document.querySelectorAll("h3")).find(
+const currentMembers = Array.from(document.querySelectorAll("h2")).find(
   (el) => el.textContent === "Group members"
 );
-const pastMembers = Array.from(document.querySelectorAll("h3")).find(
+const pastMembers = Array.from(document.querySelectorAll("h2")).find(
   (el) => el.textContent === "Past members"
 );
 
-const colabs = Array.from(document.querySelectorAll("h3")).find(
+const colabs = Array.from(document.querySelectorAll("h2")).find(
   (el) => el.textContent === "Collaborators and Research Groups"
 );
 

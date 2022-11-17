@@ -1,6 +1,23 @@
 {
   "publications": [
-    {
+   {
+      "tag": "Laponite",
+      "keywords":["All","Rheology","Yield Stress","Colloids"],
+      "title": "Studying the aging of Laponite suspensions using extensional rheology",
+      "authors": ["M.J. Hayes", "M.I.Smith"],
+      "journal": "Eur. Phys. J. E",
+      "volume": "45",
+      "pages": "91",
+      "year": 2022,
+      "pdf": "pdfs/papers/MHayes_EPJE_2022.pdf",
+      "web": "https://link.springer.com/article/10.1140/epje/s10189-022-00244-9",
+      "publicity": null,
+      "vid": null,
+      "img": "images/laponite.png",
+	    "summary": "The break-up of two liquid masses finds is commonly observed in many industrial processes e.g droplet dispensing, adhesion between two surfaces. Yield stress fluids are commonly found in such applications but understanding the affect of their rheology on the break-up behaviour is still poorly understood. Yield stress fluids generally occur in two types: 'Simple yield stress fluids' where the stress at which the fluid starts to flow is a constant and 'Thixotropic yield stress fluids' in which the properties can evolve with time, known as aging. Our study considered the role of aging in a yield stress fluid known as Laponite on the break-up properties of a sample subjected to extensional strain (a mode appropriate for studying processes such as droplet detachment)...",
+      "full": "Our study showed that as samples age the necking of the midpoint becomes more pronounced. Through comparisons of the thinning behaviour with more conventional shear rheology we found that the dynamics are influenced by the static yield stress but are apparently insensitive to the yield strain of the samples. Samples accumulate significant plastic deformations prior to complete yielding which has signficant implications for the brittle / ductile nature of the break-up. "
+    },
+	{
       "tag": "ABPs",
       "keywords":["All","Active Matter"],
       "title": "Collective behavior of composite active particles",

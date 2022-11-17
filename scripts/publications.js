@@ -1,7 +1,7 @@
 "use strict";
 
 //DOM elements
-const publicationHeading = Array.from(document.querySelectorAll("h3")).find(el => el.textContent === "Publications");
+const publicationHeading = Array.from(document.querySelectorAll("h2")).find(el => el.textContent === "Publications");
 
 //Fns add details
 const addPub = function (publication, index) {

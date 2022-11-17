@@ -229,9 +229,10 @@ Filter buttons
 .col-one {
   float: left;
   width: 940px;
-  padding-left: 50px;
+  padding-left: 40px;
   width: fit-content;
   padding-bottom: 20px;
+  padding-right: 25px;
 }
 
 #content .col-one h2 {
@@ -459,7 +460,14 @@ blockquote {
 	float:right;
 }
 
+ul {
+  margin-left: 0;
+  padding-left: 40px;
+}
 
+.para {
+  margin-top: 10px;
+}
 
 /*-----------------------------------------------------------------------------
 Modal window
