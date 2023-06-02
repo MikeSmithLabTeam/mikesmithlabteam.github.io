@@ -10,14 +10,14 @@
 }
 
 body {
-  font: 1em "Georgia", Lucida Grande, Geneva, Verdana, Arial, Helvetica,
+  font: 1em/165% "Georgia", Lucida Grande, Geneva, Verdana, Arial, Helvetica,
     sans-serif;
   color: #666666;
   background: #070707 url(images/bg.jpg) repeat-x;
   text-align: center;
 }
 
-p {padding-right: 1em;}
+p {padding-right: 20px;}
 
 /* Links */
 a {
@@ -35,32 +35,33 @@ a.float-right {
 h1,
 h2,
 h3 {
-  font: bold 2em "Trebuchet MS", Tahoma, Arial, Sans-serif;
+  font: bold 1em/1.5em "Trebuchet MS", Tahoma, Arial, Sans-serif;
   color: #111;
   padding: 1em 0em 0.2em 0.2em;
   margin: 0;
-  font-size: 2em;
-  font-weight: normal;
 }
-/*
+
 h1 {
   font-size: 345%;
   font-weight: normal;
 }
 h2 {
-  font-size: 3em;200%;
+  font-size: 200%;
   color: #a56f38;
-} */
-
+}
+h3 {
+  font-size: 150%;
+  font-weight: normal;
+}
 
 /* ----------------------------------------------
    Images
 ------------------------------------------------- */
 img {
   background: #fafafa;
-  border:0.15em solid #dcdcdc;
-  padding: 0.35em;
-  border-radius: 0.2em;
+  border: 2px solid #dcdcdc;
+  padding: 5px;
+  border-radius: 3px;
 }
 img.float-left {
   margin: 2px 2px 0px 2px;
@@ -72,14 +73,48 @@ img.float-left {
 
 video {
   background: #fafafa;
-  border: 0.15em solid #dcdcdc;
-  padding: 0.35em;
-  border-radius: 0.2em;
+  border: 2px solid #dcdcdc;
+  padding: 5px;
+  border-radius: 3px;
 }
 video.float-left {
-  margin: 0.15em 0.15em 0em 0.15em;
+  margin: 2px 2px 0px 2px;
   object-fit: scale-down;
 }
+
+/*------------------------------------------------
+Filter buttons
+-------------------------------------------------*/
+.filterbtn {
+  margin-right: 4px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  border: 5px solid #e6e5e5;
+  border-radius: 5px;
+	background: #f0f0f0 5px 5px;
+	font-weight: normal;
+	font-size: 1em;
+  box-shadow: none;
+  color: #555;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: 0 3px #999;
+}
+
+	
+.filterbtn:active {
+  background: #979797 5px 5px;
+}
+
+.current {
+  background: #979797 5px 5px;
+}
+
+.filterbtn:hover {
+  background: #b7b7b7 5px 5px;
+
+}
+
 
 
 /* ------------------------------------------
@@ -89,8 +124,8 @@ video.float-left {
   position: relative;
   background: #fff url(images/wrap-bg.jpg) no-repeat;
   margin: 0 auto;
-  width: 58em;
-  height: 27em;
+  width: 940px;
+  height: 430px;
   text-align: left;
 }
 #header-photo {
@@ -103,7 +138,7 @@ video.float-left {
   border: none;
   margin: 0;
   padding: 0;
-  border-radius: 0.35em;
+  border-radius: 5px;
 }
 
 /*  Navigation  */
@@ -120,8 +155,8 @@ video.float-left {
 #nav ul li a {
   float: left;
   margin: 0;
-  padding: 1.015em 0.7em 0 0.7em;
-  font: bold 1.2em "Trebuchet MS", Tahoma, Helvetica, Arial, Geneva,
+  padding: 18px 11px 0 11px;
+  font: bold 16px/35px "Trebuchet MS", Tahoma, Helvetica, Arial, Geneva,
     Sans-serif;
   text-decoration: none;
   color: #070000;
@@ -136,8 +171,8 @@ video.float-left {
 #nav ul li#current a {	
 	color: #000;	
 	background: #d5d3d6 url(images/nav-current.jpg) repeat-x;
-	border-bottom: 0.1em solid #CECECE;
-  border-radius: 0.35em;
+	border-bottom: 1px solid #CECECE;
+  border-radius: 5px;
   opacity: 0.7;
 }
 
@@ -145,14 +180,14 @@ video.float-left {
   position: absolute;
   margin: 0;
   padding: 0;
-  font: normal 2.5em Georgia, "Times New Roman", Times, serif;
-  letter-spacing: -0.05em;
+  font: normal 62px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: -1.5px;
   color: #070000;
   text-decoration: none;
 
   /* change the values of top and left to adjust the position of the logo*/
-  top: 1.7em;
-  left: 0.7em;
+  top: 140px;
+  left: 48px;
 }
 #header-wrap h1#logo-text a:hover {
   background: none;
@@ -164,16 +199,16 @@ video.float-left {
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: 18px;
+  line-height: 1.6em;
   font-style: italic;
   text-transform: none;
   color: #663333;
   width: 400px;
 
   /* change the values of top and left to adjust the position */
-  top: 11.5em;
-  left: 3em;
+  top: 240px;
+  left: 60px;
 }
 
 #content-outer {
@@ -181,33 +216,34 @@ video.float-left {
   width: 100%;
 }
 #content-wrapper {
-  width: 58em;
-  margin: 0em auto;
+  width: 940px;
+  margin: 0 auto;
   text-align: left;
 }
 #content {
   float: left;
-  width: 96%;
+  width: 100%;
   background: #fff url(images/content-bg.jpg) no-repeat;
 }
 
 .col-one {
   float: left;
-  width: 58em;
-  padding-left: 3em;
+  width: 940px;
+  padding-left: 40px;
   width: fit-content;
-  padding-bottom: 3em;
+  padding-bottom: 20px;
+  padding-right: 25px;
 }
 
 #content .col-one h2 {
-  padding-bottom: 2em;
+  padding-bottom: 3px;
   font: normal 2.4em "Trebuchet MS", Tahoma, Arial, Sans-serif;
   color: #000;
-  letter-spacing: -0.15em;
+  letter-spacing: -2px;
   text-transform: none;
-  border-bottom: 0.15em solid #ebebeb;
-  margin-left: 0.35em;
-  padding-left: 0.35em;
+  border-bottom: 1px solid #ebebeb;
+  margin-left: 5px;
+  padding-left: 5px;
 }
 #content .col-one h2 a {
   color: #600;
@@ -222,7 +258,7 @@ video.float-left {
 /* sidebar menu */
 ul.sidemenu {
   text-align: left;
-  margin: 0.45em 0.35em 0.5em 0px;
+  margin: 7px 5px 8px 0px;
   padding: 0;
   text-decoration: none;
   background: url(images/dots.gif) repeat-x left top;
@@ -230,7 +266,7 @@ ul.sidemenu {
 ul.sidemenu li {
   list-style: none;
   background: url(images/dots.gif) repeat-x left bottom;
-  padding: 0.4em 0.65em;
+  padding: 6px 10px;
   margin: 0;
 }
 * html body ul.sidemenu li {
@@ -252,7 +288,7 @@ ul.sidemenu li a span {
 }
 
 ul.sidemenu ul {
-  margin: 0 0 0 0.35em;
+  margin: 0 0 0 5px;
   padding: 0;
 }
 ul.sidemenu ul li {
@@ -262,8 +298,8 @@ ul.sidemenu ul li {
 /* footer */
 #footer-wrapper {
   clear: both;
-  width: 58em;
-  margin: -1em 11em;
+  width: 940px;
+  margin: 0 auto;
   text-align: left;
   font: normal 1em/1.6em "Trebuchet MS", Tahoma, Sans-serif;
 }
@@ -281,20 +317,20 @@ ul.sidemenu ul li {
 }
 
 #footer-wrapper ul.footer-list {
-  border-top: 0.15em solid #111;
+  border-top: 1px solid #111;
   list-style: none;
   padding: 0;
   margin-left: 0;
 }
 #footer-wrapper ul.footer-list li {
-  border-bottom: 0.15em solid #111;
+  border-bottom: 1px solid #111;
 }
 #footer-wrapper ul.footer-list li a {
   display: block;
   width: 98%;
   line-height: 2em;
   font-weight: bold;
-  padding: 0.25em 0;
+  padding: 4px 0;
   border: none;
   margin-left: 0;
   padding-left: 0;
@@ -316,13 +352,13 @@ ul.sidemenu ul li {
   float: left;
   width: 100%;
   padding: 0;
-  margin-left: 0.45em;
-  margin-top: 0.65em;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
 #footer-bottom .bottom-left {
   float: left;
-  padding-left: 0.45em;
+  padding-left: 5px;
 }
 #footer-bottom .bottom-right {
   text-align: right;
@@ -331,8 +367,8 @@ ul.sidemenu ul li {
 
 /* postmeta */
 .postmeta {
-  padding: 0.45em;
-  margin: 1.25em 0.65em 1em 0.65em;
+  padding: 5px;
+  margin: 20px 10px 15px 10px;
   font-size: 1em;
   color: #777;
   border: 1px solid #ebebeb;
@@ -341,18 +377,18 @@ ul.sidemenu ul li {
 
 /* thumbnails */
 p.thumbs {
-  padding: 0.75em 0 0 0.65em;
+  padding: 12px 0 0 10px;
 }
 
 .thumbs img {
   position: relative;
-  padding: 0.35em;
-  margin: 0.45em;
+  padding: 4px;
+  margin: 5px;
   background: #fafafa;
-  border: 0.15em solid #dcdcdc;
+  border: 1px solid #dcdcdc;
 }
 .thumbs img:hover {
-  border: 0.15em solid #8e8e8e;
+  border: 1px solid #8e8e8e;
   background: #8e8e8e;
   transform: scale(1.1);
   transition: transform 330ms ease-in-out 
@@ -390,11 +426,11 @@ p.thumbs {
 Summary boxes
 ---------------------------------------------------------------------*/
 blockquote {
-	margin: 0.1em 1em 1em 0em;
+	margin: 0.1em 2em 1em 0em;
 	padding: 0.4em 0.4em 0.4em 1.5em;
-	border: 0.45em solid #e6e5e5;
-	border-radius: 0.65em;
-	background: #f0f0f0 0.65em 0.65em;
+	border: 5px solid #e6e5e5;
+	border-radius: 10px;
+	background: #f0f0f0 10px 10px;
 	font-weight: normal;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -412,35 +448,45 @@ blockquote {
 }
 
 .summary-title{
-	margin-bottom: 0.45em;
-	padding: 0.65em 0.45em;
+	margin-bottom: 5px;
+	padding: 10px 5px;
 }
 
 .summary-imgs{
-	margin-right: 0.65em;
+	margin-right: 10px;
 }
 
 .email{
 	float:right;
 }
 
+ul {
+  margin-left: 0;
+  padding-left: 40px;
+}
 
+.para {
+  margin-top: 10px;
+}
 
 /*-----------------------------------------------------------------------------
 Modal window
 -------------------------------------------------------------------------------*/
+.hide-summary{
+  display: none;
+}
 
 .open-button {
 	background-color: #828282; /* Green */
-  	border: 0.65em;
+  	border: 10px;
 	border-color: black;
   	color: white;
-  	padding: 0.65em 0.65em;
-  	margin: 0.65em 0.65em;
+  	padding: 10px 10px;
+  	margin: 10px 10px;
   	text-align: center;
-  	font-size: 1em;
+  	font-size: 16px;
   	position:relative; 
-  	border-radius: 0.45em;
+  	border-radius: 5px;
   	float:right;
 }
 
@@ -450,15 +496,15 @@ Modal window
 
 .close-button {
 	background-color: #828282; /* Green */
-  	border: 0.65em;
+  	border: 10px;
 	border-color: black;
   	color: white;
-  	padding: 0.65em 0.65em;
-  	margin: 0.65em 0.65em;
+  	padding: 10px 10px;
+  	margin: 10px 10px;
   	text-align: center;
-  	font-size: 1em;
+  	font-size: 16px;
   	position:relative; 
-  	border-radius: 0.45em;
+  	border-radius: 5px;
   	float:right;
 }
 
@@ -479,15 +525,15 @@ Modal window
    height:50%;
    width:70%;
    background-color: rgb(233, 229, 229);
-   padding: 2em;
-   font-size: 1em;
+   padding: 6rem;
+   font-size: 16px;
    text-align: left;
-   border-radius: 0.45em;
+   border-radius: 5px;
    box-shadow: 0 3rem 5rem rgba(0,0,0,0.3);
    z-index: 10;
    overflow-x: hidden;
    overflow-y: auto; 
-   border: 0.55em solid #e6e5e5;
+   border: 8px solid #e6e5e5;
 }
 
 .close-modal {
@@ -509,7 +555,7 @@ Modal window
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(0.25em);
+  backdrop-filter: blur(3px);
   z-index: 5;
 
 }
