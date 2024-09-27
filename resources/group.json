@@ -1,0 +1,81 @@
+{
+  "current": [
+    {
+    "name": "Mike Smith",
+    "blurb":"My research interests are focussed on how the interactions between particles affect the properties of non-equilibrium flows. This spans colloidal and granular systems, both with and without wetting liquids. I'm particularly interested in questions related to the arrest of flowing matter: glassy dynamics, jamming, fracture",
+    "email":"mike.i.smith@nottingham.ac.uk",
+    "img":"images/Mike.jpg",
+    "webpage": null
+    },
+    {
+      "name": "Oliver Lunn",
+      "blurb":"Oliver is working on a PhD using 2D vibrated granular particles to study phase transitions, including the novel rise of interfacial tension at liquid-crystal interfaces",
+      "email":"ppyol1@nottingham.ac.uk",
+      "img":"images/Oliver.png",
+      "webpage": null
+      }
+    
+  ],
+  "past": [
+    {
+      "name": "Juno Hayes",
+      "blurb": "Juno worked on an Industry linked PhD project studying the break-up of yield stress fluids. e.g clay.",
+      "email": null,
+      "img": "images/Matt.jpg",
+      "webpage": null
+    },
+    {
+      "name": "James Downs",
+      "blurb": "James worked on a PhD project looking at crystallization in 2D granular fluids.",
+      "email": null,
+      "img": "images/James.png",
+      "webpage":null
+    },
+    {
+      "name": "Nathan Smith",
+      "blurb": "Nathan studied a PhD in granular physics between 2014-2018. He is now a data scientist doing research on LIDAR for wind farms.",
+      "email" : null,
+      "img" : "images/Nathan.jpg",
+      "webpage":null
+    },
+    {
+      "name": "Bin Yang",
+      "blurb": "Bin did postdoctoral research on film formation in drying colloids between 2013-2017. She is now a research scientist at AstraZeneca",
+      "email" : null,
+      "img" : "images/Bin.jpg",
+      "webpage":null
+    }
+  ],
+  "colabs": [
+    {
+      "name": "Professor Juan Garrahan",
+      "institution": "University of Nottingham",
+      "img":"images/juangarrahan.jpg",
+      "webpage": "https://www.nottingham.ac.uk/~ppzjpg"
+    },
+    {
+      "name": "Dr Michael Swift",
+      "institution": "University of Nottingham",
+      "img":"images/michaelswift.jpg",
+      "webpage": "https://www.nottingham.ac.uk/Physics/People/michael.swift"
+    },
+    {
+      "name": "Dr Kranthi Mandadapu",
+      "institution": "UC Berkeley",
+      "img":"images/kranthimandadapu.png",
+      "webpage": "http://www.cchem.berkeley.edu/kranthi/"
+    },
+    {
+      "name": "Dr James Sharp",
+      "institution": "University of Nottingham",
+      "img":"images/jamessharp.png",
+      "webpage": "https://www.nottingham.ac.uk/Physics/People/james.sharp"
+    },
+    {
+      "name": "Dr Volfango Bertola",
+      "institution": "University of Liverpool",
+      "img":"images/volfangobertola.jpg",
+      "webpage": "http://www.technicalphysics.epizy.com/?i=1"
+    }
+  ]
+}
