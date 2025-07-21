@@ -233,7 +233,7 @@
       "vid": null,
       "img": "images/oscillatedrop.png",
       "summary": "In this work we used the deflection of a laser beam as it passes through an oscillating droplet to measure the resonant frequencies. Using this technique we can measure the interfacial tension providing a fast, easy method that could be applied to in line processing in an industrial setting.",
-      "full": null
+      "full": "This methodology could potentially provide a high throughput method for determining interfacial properties of large numbers of droplets for exampl in microfluidic channels."
     },
     {
       "tag": "ShearBand",

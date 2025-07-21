@@ -3,7 +3,7 @@
   <head>
     <title>Dr Mike Smith</title>
 
-    <meta 
+    <meta
       http-equiv="content-type"
       content="application/xhtml+xml; charset=UTF-8"
     />
@@ -18,7 +18,10 @@
     />
     <meta name="robots" content="index, follow, noarchive" />
     <meta name="googlebot" content="noarchive" />
-    <meta name="viewport" content="width=device-width,initial-scale=0.4, maximum-scale=1"/>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=0.4, maximum-scale=1"
+    />
     <link rel="stylesheet" href="styleformat.css" type="text/css" />
   </head>
 
@@ -33,8 +36,8 @@
           width="890"
         />
       </div>
-      <h1 id="logo-text">
-        <a href="index.html" title="Home">Dr Mike Smith</a>
+      <h1 id="logo-text" class="professional-title">
+        <a class="index.html" title="Home">Dr Mike Smith</a>
       </h1>
       <p id="intro">
         School of Physics, University of Nottingham<br />
@@ -56,10 +59,12 @@
       <div id="nav">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li id="current"><a href="researchsummary.html">Research Summaries</a></li>
+          <li id="current">
+            <a href="researchsummary.html">Research Summaries</a>
+          </li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="groupmembers.html">Group / Collaborators</a></li>
-          <li><a href="outreach.html">Outreach</a></li>
+          <li><a href="outreach.html">Teaching / Outreach</a></li>
         </ul>
       </div>
     </div>
@@ -68,20 +73,17 @@
     <div id="content-outer" class="clear">
       <div id="content-wrapper">
         <!-- column-one -->
-        
-          <div class="col-one">
 
-<h2>Research Summaries</h2>
-<div id="content">
-<!-- filter options-->
+        <div class="col-one">
+          <h2>Research Summaries</h2>
+          <div id="content">
+            <!-- filter options-->
 
-<div id="myBtnContainer"></div>
-<br>
+            <div id="myBtnContainer"></div>
+            <br />
 
-
-<div id="start"></div>
-<br>
-
+            <div id="start"></div>
+            <br />
 
             <!-- summaries.js injects all the summaries here calling data from publications.json -->
           </div>
@@ -89,23 +91,18 @@
       </div>
     </div>
 
-
     <!-- footer starts here -->
     <div id="footer-wrapper">
       <div id="footer">
-        <h3>Image Gallery  (click on an image) </h3>
+        <h3>Image Gallery (click on an image)</h3>
         <p class="thumbs">
           <!-- template.js injects all the images listed in publications.json-->
         </p>
       </div>
     </div>
 
-
-
-
     <div class="overlay hidden"></div>
     <!-- modal windows injected here but initially hidden-->
-
 
     <script src="scripts/summaries.js"></script>
     <script src="scripts/modal.js"></script>

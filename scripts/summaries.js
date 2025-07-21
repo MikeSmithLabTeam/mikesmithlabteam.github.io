@@ -57,7 +57,7 @@ const addSummary = function (publication) {
       <blockquote class="summary" keywords=${publication.keywords}>
       <div>
         <div class="summary-title">
-          <h4>${publication.title}</h4>
+          <h3>${publication.title}</h3>
         </div>
         <div class="summary-container">
           <a class="summary-imgs"><img src="${publication.img}" alt="${publication.tag}" class="float-left" height="140" width="140" /></a>
@@ -82,7 +82,7 @@ const addSummary = function (publication) {
       <blockquote class="summary" keywords=${publication.keywords}>
       <div>
         <div class="summary-title">
-          <h4>${publication.title}</h4>
+          <h3>${publication.title}</h3>
         </div>
         <div class="summary-container">
         <p class="summary-imgs"><video controls="controls" autoplay="autoplay muted" loop="loop" width="140" height="140" class="float-left" poster="${publication.img}">
@@ -108,7 +108,7 @@ const addSummary = function (publication) {
       <div class="modal hidden" id=${publication.tag}>
         <div class="summary-title">
         <button class="close-modal">&times;</button>
-          <h2>${publication.title}</h2>
+          <h3>${publication.title}</h3>
         </div>
         <div class="summary-container">
           <a class="summary-imgs"><img src="${publication.img}" alt="${publication.tag}" class="float-left" height="140" width="140" /></a>
@@ -116,11 +116,14 @@ const addSummary = function (publication) {
              <p>${publication.summary}</p>
              <br>
              <p>${publication.full}</p>
+             <br>
+             <a href="publications.html#${publication.tag}" class="float-right">Read the paper</a>
+             <br>
           </div>
         </div>
         <div>  
             <button class="close-button">Close</button> 
-          </div>
+        </div>
       </div>
       
       `
@@ -133,7 +136,7 @@ const addSummary = function (publication) {
       <div class="modal hidden" id=${publication.tag}>
         <div class="summary-title">
         <button class="close-modal">&times;</button>
-          <h2>${publication.title}</h2>
+          <h3>${publication.title}</h3>
         </div>
         <div class="summary-container">
           <p class="summary-imgs"><video controls="controls" autoplay="autoplay muted" loop="loop" width="140" height="140" class="float-left" poster="${publication.img}">
