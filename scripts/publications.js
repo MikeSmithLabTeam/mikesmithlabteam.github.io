@@ -14,7 +14,7 @@ const addPub = function (publication, index) {
     )} &nbsp; 
     ${publication.journal}	${publication.volume}, 
     ${publication.pages} (${publication.year})<br>
-    <a href=https://mikesmithlabteam.github.io/${publication.pdf}" target="_blank"><strong>pdf</strong></a>
+    <a href=https://mikesmithlabteam.github.io/${publication.pdf} target="_blank"><strong>pdf</strong></a>
     <a href=${publication.web} target="_blank">&nbsp;<strong>web</strong></a> 
     <br>
     `
