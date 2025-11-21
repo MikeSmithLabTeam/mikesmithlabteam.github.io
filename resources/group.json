@@ -7,9 +7,14 @@
     "img":"images/Mike.jpg",
     "webpage": null
     },
+    {"name": "Joe Orgill",
+      "blurb":"Joe is a Research Associate working on a grant funded by the Leverhulme Trust. Liquids can transition to two types of solid as they are cooled: crystals where the particles are completely ordered and glass where the particles remain disordered. The project will try to test some theories describing these two types of solid-like behaviour and importantly ask the question what happens in between.",
+      "email":"pcyjo@nottingham.ac.uk",
+      "img":"images/Joe.png",
+      "webpage": null},
     {
       "name": "Oliver Lunn",
-      "blurb":"Oliver is working on a PhD using 2D vibrated granular particles to study phase transitions, including the novel rise of interfacial tension at liquid-crystal interfaces",
+      "blurb":"Oliver is working on a PhD using 2D vibrated granular particles. In particular he is interested in the novel rise of interfacial tension in these non-equilibrium systems.",
       "email":"ppyol1@nottingham.ac.uk",
       "img":"images/Oliver.png",
       "webpage": null
@@ -35,7 +40,7 @@
       "name": "Nathan Smith",
       "blurb": "Nathan studied a PhD in granular physics between 2014-2018. He is now a data scientist doing research on LIDAR for wind farms.",
       "email" : null,
-      "img" : "images/Nathan.jpg",
+      "img" : "images/Nathan.png",
       "webpage":null
     },
     {
