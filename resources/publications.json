@@ -12,13 +12,9 @@
       "pdf": "pdfs/papers/Swift_PRE_2026.pdf",
       "web": "https://journals.aps.org/pre/pdf/10.1103/37yf-n6f7",
       "publicity": null,
-      "vid": videos/chaos.mp4,
+      "vid": "videos/chaos.mp4",
       "img": "images/chaos.png",
-	  "summary": "The electrostatic charging of insulators is notoriously irreproducible. Using experiments and simulations we
-study the charging of a single bouncing ball on a vibrating surface. We show that a ball’s final charge results from
-a coupling between its chaotic dynamics and its evolving charge distribution. This results in a permanent charge
-dipole which traps the particle in an “orientational absorbing state” preventing further charging. The variability
-of each particle’s final charge is a direct consequence of this dynamical coupling....",
+	  "summary": "The electrostatic charging of insulators is notoriously irreproducible. Using experiments and simulations we study the charging of a single bouncing ball on a vibrating surface. We show that a ball’s final charge results from a coupling between its chaotic dynamics and its evolving charge distribution. This results in a permanent charge dipole which traps the particle in an “orientational absorbing state” preventing further charging. The variability of each particle’s final charge is a direct consequence of this dynamical coupling....",
       "full": "In this study we used a very simple system of a single ball bouncing on a curved dish. As the dish is vibrated the ball bounces and because of the different materials the ball charges electrostatically. We showed that the final saturated charge varies wildly for different iterations of the experiment no matter how long you shake the system for. Using simulations where the ball is composed of discrete patches we show that there is a feedback mechanism between the chaotic dynamics and the torque generated on the ball by the initial distribution of charge. The initial charging constrains the dynamics trapping the rotation of the ball and thus limiting the maximum charge. "
     },
    {
