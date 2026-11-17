@@ -1,6 +1,45 @@
 {
   "publications": [
+	   {
+      "tag": "ChargeChaos",
+      "keywords":["All","ElectrostaticCharge","Chaos"],
+      "title": "Absorbing states govern the charging of vibrated grains",
+      "authors": ["M.R. Swift", "M.I.Smith"],
+      "journal": "Phys. Rev. E",
+      "volume": "114",
+      "pages": "L033402",
+      "year": 2026,
+      "pdf": "pdfs/papers/Swift_PRE_2026.pdf",
+      "web": "https://journals.aps.org/pre/pdf/10.1103/37yf-n6f7",
+      "publicity": null,
+      "vid": videos/chaos.mp4,
+      "img": "images/chaos.png",
+	  "summary": "The electrostatic charging of insulators is notoriously irreproducible. Using experiments and simulations we
+study the charging of a single bouncing ball on a vibrating surface. We show that a ball’s final charge results from
+a coupling between its chaotic dynamics and its evolving charge distribution. This results in a permanent charge
+dipole which traps the particle in an “orientational absorbing state” preventing further charging. The variability
+of each particle’s final charge is a direct consequence of this dynamical coupling....",
+      "full": "In this study we used a very simple system of a single ball bouncing on a curved dish. As the dish is vibrated the ball bounces and because of the different materials the ball charges electrostatically. We showed that the final saturated charge varies wildly for different iterations of the experiment no matter how long you shake the system for. Using simulations where the ball is composed of discrete patches we show that there is a feedback mechanism between the chaotic dynamics and the torque generated on the ball by the initial distribution of charge. The initial charging constrains the dynamics trapping the rotation of the ball and thus limiting the maximum charge. "
+    },
    {
+      "tag": "Electrostatic",
+      "keywords":["All","Electrostatic"],
+      "title": "Torque about electrostatically charged spheres makes them more attractive",
+      "authors": ["M.R. Swift", "M.I.Smith"],
+      "journal": "Soft Matter",
+      "volume": "20",
+      "pages": "7038",
+      "year": 2024,
+      "pdf": "pdfs/papers/MSwift_SoftMatter_2024.pdf",
+      "web": "https://pubs.rsc.org/sm/article/20/35/7038-7043/871831",
+      "publicity": null,
+      "vid": null,
+      "img": "images/laponite.png",
+	  "summary": "The strength of interparticle interactions in a granular system controls how a collection of insulating particles flow, cohere and fragment. Forces due to electrostatic charging, particularly in free-fall or low gravity environments, can dominate the static and dynamic interactions with important implications for understanding natural and industrial processes. Here we show that shaking of homogeneous, spherical particles can result in a non-uniform surface charge distribution. The measured dipole moment and torque for each particle are found to be strongly correlated. However, our model shows that to predict the torque and force requires one to consider the full surface charge distribution. This overlooked torque is not only significant, but would amplify attractive interactions through particle reorientation....",
+      "full": "Our study uses experiments to demonstrate that it simply shaking particles together can result in aniosotropic charge distributions. By analysing the motion in a uniform electric field we measure how the dipole is related to the charge on the particle. We then demonstrate that these dipole moments are sufficient to generate substantial torques that would influence the subsequent dynamics. "
+    },    
+	
+	  {
       "tag": "Laponite",
       "keywords":["All","Rheology","Yield Stress","Colloids"],
       "title": "Studying the aging of Laponite suspensions using extensional rheology",
